@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>・</title>
+		<meta charset="utf8" />
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/grid.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+	</head>
+	<body>
+		{$newPost}<br/>
+		<a href="/notes/">back to top</a>
+		<div class="container grid">
+			<div class="col-3-4">
+				<ul id="postlist">
+					{loop="postlist"}
+						<li>{$value}</li>
+					{/loop}
+				</ul>
+			</div>
+			<div class="tag-container col-1-4">
+				<ul id="taglist">
+					{loop="taglist"}
+						<li>/{$value}</li>
+					{/loop}
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

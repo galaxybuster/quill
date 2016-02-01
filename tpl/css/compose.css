@@ -1,0 +1,59 @@
+/* #### bootstrap Form #### */
+form {
+	margin: 0 auto;
+
+	width: 600px;
+	background: #FFF;
+	padding: 20px 30px 20px 30px;
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #888;
+}
+input[type="text"], 
+input[type="email"], 
+input[type="file"], 
+input[type="password"], 
+textarea {
+	color: #888;
+	height: 20px;
+	line-height:15px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: 0 none;
+	padding: 5px 0px 5px 5px;
+	width: 100%;
+
+	border:none;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+textarea {
+	height:400px;
+	width: 100%;
+}
+
+input[type="text"] {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bolder;
+	font-size: 9pt;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.button {
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 10px 25px 10px 25px;
+	color: #333;
+	border-radius: 4px;
+}
+.button:hover {
+	color: #333;
+	background-color: #EBEBEB;
+	border-color: #ADADAD;
+}
+
+
+.result {
+	text-align: center;
+}

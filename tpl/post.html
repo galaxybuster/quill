@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>{$title}</title>
+		<meta charset="utf8" />
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	</head>
+	<body>
+		{$sidebar}
+		<a href="/notes/">back to top</a>
+		<div class="post-container">
+			<div class="post-header">
+				<h1 class="post-title">{$title}</h1>
+				<h4 class="post-byline">{$tagsList} / {$date}</h4>
+				{$image}
+			</div>
+			<div class="post-body">
+				{$body}
+			</div>
+		</div>
+	</body>
+</html>

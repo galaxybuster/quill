@@ -1,0 +1,13 @@
+.DS_Store
+
+*.sublime-project
+*.sublime-workspace
+
+lib/init.php
+
+temp/*
+
+tpl/img/*
+media/*
+
+v*/*
